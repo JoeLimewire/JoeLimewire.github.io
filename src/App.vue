@@ -32,7 +32,8 @@ import Navigation from "./components/Navigation.vue";
 <style scoped>
 .container {
   max-width: 70rem;
-  margin: auto 1rem;
+  margin: auto;
+  padding: 0 1rem;
   box-sizing: border-box;
 
   /* border: 1px solid red; */
@@ -51,9 +52,6 @@ import Navigation from "./components/Navigation.vue";
 
 @media only screen and (max-width: 1120px) {
   /* TABLET SIZE */
-  body {
-    background-color: red;
-  }
 
   .banner {
     flex-direction: column-reverse;
